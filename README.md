@@ -33,7 +33,7 @@ npm run test:e2e
 # or 
 
 # Runs all tests in headless mode against chrome
-npm run test:e2e
+npm run test:e2e:headless
 ```
 
 This runs all test in ./tests/e2e with the extension .e2e.ts, so this is the naming convention for these tests
