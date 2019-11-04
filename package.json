@@ -1,0 +1,29 @@
+{
+  "name": "ds.example",
+  "version": "1.0.0",
+  "description": "Example bundle to show project structure",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:e2e": "testcafe 'chrome' tests/e2e/**/*.e2e.ts",
+    "test:e2e:headless": "testcafe 'chrome:headless' tests/e2e/**/*.e2e.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/dreamtsoft/ds.example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dreamtsoft/ds.example/issues"
+  },
+  "homepage": "https://gitlab.com/dreamtsoft/ds.example#readme",
+  "devDependencies": {
+    "@dreamtsoft/test": "^1.0.0",
+    "@types/node": "12.12.5",
+    "jest": "24.9.0",
+    "testcafe": "1.6.0",
+    "typescript": "3.6.3"
+  }
+}

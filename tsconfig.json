@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES2017",
+      "module": "commonjs", 
+      "rootDir": "./",                       
+      "strict": true, 
+      "types": ["testcafe"],
+      "noImplicitAny": false, 
+      "inlineSourceMap": true,               
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+    }
+  }
+  
