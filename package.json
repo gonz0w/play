@@ -20,7 +20,7 @@
   },
   "homepage": "https://gitlab.com/dreamtsoft/ds.example#readme",
   "devDependencies": {
-    "@dreamtsoft/test": "^1.0.0",
+    "@dreamtsoft/test": "^1.2.0",
     "@types/node": "12.12.5",
     "jest": "24.9.0",
     "testcafe": "1.6.0",
